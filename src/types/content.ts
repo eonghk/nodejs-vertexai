@@ -193,6 +193,9 @@ export declare interface SafetySetting {
 // eslint-disable-next-line @typescript-eslint/no-empty-interface
 export interface ResponseSchema extends Schema {}
 
+export declare interface ThinkingConfig {
+  thinkingBudget?: number;
+}
 /**
  * Configuration options for model generation and outputs.
  */
@@ -233,6 +236,7 @@ export declare interface GenerationConfig {
    * If set, a compatible responseMimeType must also be set.
    */
   responseSchema?: ResponseSchema;
+  thinkingConfig?: ThinkingConfig;
 }
 
 /**
