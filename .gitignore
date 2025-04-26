@@ -1,6 +1,5 @@
 # Ignore directories generated automatically.
 node_modules/
-build/
 docs/
 .nyc_output/
 
